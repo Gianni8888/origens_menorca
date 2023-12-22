@@ -4,8 +4,11 @@ body {
 }
 
 nav {
-  background-color: #333;
+  background-color: lightblue;
   overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 nav a {
@@ -20,4 +23,9 @@ nav a {
 nav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+/* Add some padding to the body to account for the fixed navbar */
+body {
+  padding-top: 50px; /* Adjust this value based on your navbar height */
 }

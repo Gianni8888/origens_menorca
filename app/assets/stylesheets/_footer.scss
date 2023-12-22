@@ -1,17 +1,40 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
 }
 
 footer {
-  background-color: #333;
+  background-color: lightblue;
   color: white;
   padding: 20px;
   text-align: center;
+  margin-top: auto;
 }
 
 footer a {
   color: white;
   text-decoration: none;
   margin: 0 15px;
+}
+
+footer .social-icons {
+  margin-top: 15px;
+}
+
+footer .social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer .copyright {
+  margin-top: 15px;
+  font-size: 14px;
 }
